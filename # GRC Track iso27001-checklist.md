@@ -1,7 +1,7 @@
 # ISO 27001 Compliance Checklist
 **Framework:** ISO 27001:2022 Information Security Management System  
 **Assessor:** [Vivian Edim]  
-**Date:** [Today's Date]  
+**Date:** [28/04/2026]  
 **Control Domain:** Access Control (Annex A 5.15 to 5.18)
 
 ---
@@ -239,8 +239,36 @@ Auditors now expect enforcement, coverage mapping, and an exceptions register, n
 
 **Question 4:** What evidence would you ask SecureNow Ltd to provide to verify whether each control is actually working, not just documented? List at least two pieces of evidence per control.
 
-> Your answer here
+1. Identity Management
+Undsr this section i would be verifying: Joiner–Mover–Leaver (JML) processes work in practice.
 
----
+List of evidence to request:
+>JML logs or tickets showing who requested access, who approved it, and when it was provisioned.
+>Leaver reports showing accounts disabled on or before the termination date (sample 5–10 recent leavers).
+>List of all active accounts compared against HR’s list of active employees (to detect ghost accounts).
+
+2. Access Control Policy
+Here i would be verifying if the policy exists, is current, and is being followed.
+
+Ask for at least two pieces of evidence:
+>Version‑controlled policy with review history (showing last review date, approver, and change log).
+>Evidence of communication and adoption, e.g., onboarding checklist, training records, or staff acknowledgement logs.
+>Sample audit of compliance, such as a spot‑check showing whether actual access practices match the policy.
+>
+3. Access Rights
+ What to verify: Least privilege, role‑based access, and regular reviews.
+Evidence to ask for:
+>Role‑based access matrix mapping job roles to required systems and privilege levels.
+>Quarterly access review records showing who reviewed access, what was removed, and why.
+
+4. Authentication Information
+   What to verify: Authentication controls (passwords, MFA, secrets) are enforced, not optional.
+
+Pieces of evidence:
+>MFA enforcement configuration from Google Workspace, AWS, CRM, and payroll (screenshots or exported policy settings).
+>MFA coverage report showing percentage of users with MFA enabled and any documented exceptions.
+>Password manager/secrets vault logs showing access to shared credentials and rotation history.
+>Authentication logs showing MFA challenges, failed logins, and privileged login events.
+
 
 *Template provided by CyberShift With Funke | Cohort 1 Assignment*
