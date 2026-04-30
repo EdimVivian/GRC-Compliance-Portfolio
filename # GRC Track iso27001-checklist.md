@@ -1,7 +1,7 @@
 # ISO 27001 Compliance Checklist
 **Framework:** ISO 27001:2022 Information Security Management System  
 **Assessor:** [Vivian Edim]  
-**Date:** [28/04/2026]  
+**Date:** [30/04/2026]  
 **Control Domain:** Access Control (Annex A 5.15 to 5.18)
 
 ---
@@ -10,9 +10,10 @@
 
 Write 3 to 5 sentences in your own words explaining what ISO 27001 is, why organisations pursue it, and what problem it is trying to solve. Do not copy from the internet. Explain it as if you were telling a colleague who has never heard of it.
 
-ISO 27001 is like a rulebook that helps companies keep their important informations safe, just like locking your door or house so that starangers can't walk in. It tells organisations what they must do to protect sensistive infrmation like passwords, customer data, and computer from being misused or stolen. ISO 27001 can also be describe as a safety checklist that makes sure everyone follows the same good habits.
-Organisationsations pursue because ISO 27001 protects information in every form, be it paper, digital or cloud, ISO 27001 helps organizations become risk-aware and proactively identify and address weaknesses. it encourages companies to protect information by looking at everything together; like the people who use it, the rules thry follow, and the technology they rely on.
-The problem ISO 27001 has come to solve or is trying to solve basically trying to offer a complete, organised way to keep information safe and businesses ans organisations resillient to cyberattacks.
+ISO 27001 is like a rulebook that helps companies keep their important information safe, just like locking your door or house so that strangers can't walk in. It tells organisations what they must do to protect sensitive information like passwords, customer data, and computer from being misused or stolen. 
+ISO 27001 can also be describe as a safety checklist that makes sure everyone follows the same good habits.
+Organisationsations pursue because ISO 27001 protects information in every form, be it paper, digital or cloud, ISO 27001 helps organizations become risk-aware and proactively identify and address weaknesses. It encourages companies to protect information by looking at everything together; like the people who use it, the rules thyy follow, and the technology they rely on.
+The problem ISO 27001 has come to solve or is trying to solve basically is trying to offer a complete, organised way to keep information safe and businesses and organisations resillient to cyberattacks.
 
 
 ## About the Control Domain You Are Assessing
@@ -22,7 +23,7 @@ Write 2 to 3 sentences explaining what Access Control means in the context of in
 Access control in Information Security simply means one is  making sure that only the right person/people can get or have access into the right information or system.
 It is just like giving keys only to the people who should have access to a room. 
 It is very important because this control helps an organisation decide who is allowed to see, use, or modify certain onformation with permission, and who is not.
-If access control is weak, anyone could access anything, which can lead to data leaks, fraud, stolen information, or even full system compromise. Mistakes become harder to trace because you can’t tell who did what, and the organisation could face legal trouble, financial loss, or reputational damage.
+If Access Control is weak, anyone could access anything, which can lead to data leak, fraud, stolen information, or even full system compromise. Mistakes become harder to trace because you can’t tell who did what, and the organisation could face legal trouble, financial loss, or reputational damage.
 Former employees might still have access and misuse it.
 
 ## SecureNow Ltd - Company Profile
@@ -36,13 +37,12 @@ Read this carefully before you begin. You will use this information to make your
 **Working arrangements:** Fully remote. Staff use a mix of company issued laptops and personal devices. No policy has been issued about personal device use  
 **Security team:** None. The Office Manager handles IT requests. There is no dedicated security, GRC, or IT team  
 **Existing documentation:** A one page IT policy written in 2019 that covers acceptable use of company email. It has never been reviewed or updated  
-**Access management:** When a new employee joins, the Office Manager creates their Google account and manually shares relevant folders. There is no formal access request or approval process. When staff leave, accounts are deactivated only when someone notices the person is no longer responding to emails, which has taken anywhere from 3 days to 6 weeks  
+**Access management:** When a new employee joins, the Office Manager creates their Google account and manually shares relevant folders. There is no formal access request or approval process. When staff leave, accounts are deactivated only when someone notices the person is no longer responding to emails, which has taken anywhere from 3 days to 6 weeks.  
 **Privileged access:** Three members of the leadership team have admin access to AWS. One of them left the company 4 months ago. His account was deactivated in Google Workspace but no one checked AWS  
 **Passwords:** Google Workspace enforces a minimum 8 character password. MFA is enabled on Google Workspace but is optional and only 60 percent of staff have turned it on. AWS has no MFA enforced. The CRM and payroll systems have no MFA and passwords are shared in a Slack channel called passwords-internal  
 **Recent incident:** A sales employee left 3 months ago. Two weeks after her departure, someone used her CRM login to export the full customer contact list. The company is not sure if it was her or someone who had access to the shared Slack channel. No formal investigation was conducted  
 
 ## Compliance Checklist
-
 For each control below, read the requirement carefully. Then look at the SecureNow Ltd profile and decide:
 
 - **PASS** - The company clearly meets this requirement with evidence to support it  
@@ -78,12 +78,10 @@ There is no dedicated security, GRC, or IT team.
 
 **Think about this:** The company has a 2019 IT policy. Does having any written document automatically mean this control passes? What would a proper access control policy need to include that this one likely does not?
 
-NO. absolutly not. Following the ISO 270001 statndard that cares about qaulity and actual standard performance, an 2019 outdated one-page IT policy that only talks about email
-use and has never being reviewed **does nOt** meet the requirement for an Access Control Policy.
-A real caccess control should clearly state and explained how access is managed from start to finisg, clearly outlining its aim and scope, 
-for example What systems and data the policy applies to Google Workspace, AWS, CRM, payroll, Slack, personal devices, etc. It should include roles ond
-responsibilities of who approves, grants, review or revoke access, access request and approval process with documented evidence, how access is assigned and denied, 
-how personal devices at work place, how access is can be tracked to help detect suspicious activities and lastly how often policies are reviewed.
+NO. absolutly not. Following the ISO 270001 statndard that cares about qaulity and actual standard performance, a 2019 outdated one-page IT policy that only talks about email use and has never being reviewed **does not** meet the requirement for an Access Control Policy.
+A real Access Control policy should clearly state and explained how access is managed from start to finish, clearly outlining its aim and scope, 
+for example what systems and data the policy applies to Google Workspace, AWS, CRM, payroll, Slack, personal devices, etc. 
+It should include roles and responsibilities of who approves, grants, review or revoke access, access request and approval process with documented evidence, how access is assigned and denied, how personal devices at work place are being used for work purpose, how access can be tracked to help detect suspicious activities and lastly how often policies are reviewed.
 
 ### Control A.5.16 - Identity Management
 
@@ -133,14 +131,16 @@ in an organisation so does the ability to detect misuse, respond to incidents or
 | **Status** | FAIL |
 
 | **Evidence from the profile** | What specific detail from SecureNow Ltd supports your judgment? |
-AWS has no MFA enforced.
-MFa is optional on Google workspace and only 605 of staff have enabled it
-Google worrkspace enforces only a minimum of 8 character password.
-password are resused and shared, no control n place or management policy controlling aunthenticatoion practices.
-CRM and payroll systems ahve no MfA and their credential are shared in a an open workplace messaging app called slack.
+
+>AWS has no MFA enforced.
+>MFA is optional on Google workspace and only 605 of staff have enabled it
+>Google workspace enforces only a minimum of 8 character password.
+>Password are resused and shared, no control in place or management policy controlling aunthenticatoion practices.
+>CRM and payroll systems ahve no MfA and their credential are shared in a an open workplace messaging app called Slack.
 
 | **Your reasoning** | Why did you choose this status? Be specific |
-> At secureNow, anyone with acces to the slack channel or a reused password can log in as another ''user'' or a shared account.
+
+> At secureNow, anyone with acces to the Slack channel or a reused password can log in as another ''user'' or a shared account.
 > That alone has destroyed accountability, undermines audit logs and amke incident investigation impossible.
 > Moreso, ISO 270001 expects authenticatio to relaibly prove who a user is so actions can be traced to an individusl.
 > The current setup at SecureNow means authentication is weak in controlling weak passwords, incosistent multifactor protection and shared credential.
@@ -154,6 +154,7 @@ CRM and payroll systems ahve no MfA and their credential are shared in a an open
 > Policy, ownership and mandatory training for staff.
 
 **Think about this:** MFA is enabled on Google Workspace but only 60 percent of staff use it. Does enabling a security feature count as implementing it if uptake is voluntary and incomplete? How would you argue this in a real audit?
+
 NO. 
 > Having a security feature available is not the same as actually implementing it.
 > Turning a control on but leaving it optional does not satisfy ISO 27001 auditors expect controls to be enforced,
@@ -172,29 +173,29 @@ NO.
 | **Evidence from the profile** | What specific detail from SecureNow Ltd supports your judgment? |
 >At secureNow Ltd, access isgranted informally, that is the office manager creates Google workspace accounts and manually shared folders with no approval workflow.
 >accounts for people who no longer work at securenow are only deactiv\ted when someone notices, taking between 3 days and 6 weeks.
->previlege access to systems and informations exist without control, 3 leaders have AWS admin right and one ex leader still retains that acccess 4 months after leaving.
+>privilege access to systems and informations exist without control, 3 leaders have AWS admin right and one ex leader still retains that acccess 4 months after leaving.
 >No formal role definiitions and payroll credentials are shared in slack channel, enabling multiple people to use the same identity.
 
 | **Your reasoning** | Why did you choose this status? Be specific |
 >Least privilege means giving people only the permissions they neeed to do their job, for the minimum time required.
 >At SecureNow, access is granted on an ad-hoc basis, remains active for a long time after people leave and credentials are shared  which create over previleged accounts (including unmamanaged AWS admin access) and secers the link between access and job function.
 >Because there are no role‑based assignments or scheduled reviews, the company cannot demonstrate that users hold only the rights they need,
->—therefore the control is not satisfied.
+therefore the control is not satisfied.
 
 | **Gap (if any)** | What exactly is missing or insufficient? |
 >Crontol for priviledged accounts:admin accounts should be seperated and stricter approvals should be applied to whoever have access to it
 >Eliminiation of shared user credentials and clear handling for service accounts.
 >Regualar access review process: following documented processes frequency, owners, and remediation steps
->Role or job based access definition: not able to map duties to minimum required previleges
->
+>Role or job based access definition: not able to map duties to minimum required previleges.
+
 **Think about this:** A former employee still has active AWS admin access four months after leaving. The recent CRM incident may have involved a former employee's credentials. These two facts together tell a story. What story is that, and what does it mean for this control?
 
->Practically, it elevates insider-risk and external-compromise scenarios, undermines auditability, and creates regulatory and contractual exposure.
-> Those two facts together tell a single, worrying story: SecureNow’s identity lifecycle is broken.
+>Practically, it elevates insider-risk and external-compromise scenarios, it undermines auditability, and creates regulatory and contractual exposure.
+> Those two facts together tell a single, worrying story: SecureNow’s identity lifecycle is broken!.
 > An ex‑employee retaining AWS admin rights four months after leaving, plus a CRM breach that may have used a former employee’s credentials,
-> shows deprovisioning is unreliable, credentials are effectively shared or reused, and monitoring or alerting failed to detect or prevent misuse.
-> For the Access Control domain this means the organisation cannot enforce least privilege, cannot attribute actions to individuals, and cannot
-> investigate or contain incidents — all core ISO 27001 requirements. 
+shows deprovisioning is unreliable. Credentials are effectively shared or reused, and monitoring or alerting failed to detect or prevent misuse.
+> For the Access Control domain this means the organisation cannot enforce least privilege, it cannot attribute actions to individuals, and cannot
+investigate or contain incidents hich are all core ISO 27001 requirements. 
 
 # Overall Summary
 
@@ -219,11 +220,11 @@ Answer each question in 3 to 5 sentences. These require your own judgment. There
 
 **Question 2:** The company has MFA enabled on Google Workspace. A senior leader argues this means the company is compliant with authentication requirements. How would you respond to that argument? What would you show them to prove your point?
 
-If a senior leader argues “MFA is enabled, so we’re compliant,” I would push back on two fronts: governance and evidence. ISO‑style assessment treats a control as implemented only when it is applied consistently to the systems and user classes in scope,
-and when the organisation can produce objective, auditable proof that the control is working as intended.
-Simply having the capability switched on but allowing voluntary uptake leaves high‑risk accounts exposed and fails the “applied” requirement in Annex A (secure authentication).
-Auditors now expect enforcement, coverage mapping, and an exceptions register, not a checkbox.
-> To make this concretfor the board, i would show 5 (five) piecese of evidence that prove weather MFA is trly implented or merely avaialable:
+>If a senior leader argues “MFA is enabled, so we’re compliant,” I would push back on two fronts: governance and evidence.
+>ISO‑style assessment treats a control as implemented only when it is applied consistently to the systems and user classes in scope, and when the organisation can produce objective, auditable proof that the control is working as intended.
+>Simply having the capability switched on but allowing voluntary uptake leaves high‑risk accounts exposed and fails the “applied” requirement in Annex A (secure authentication).
+>Auditors now expect enforcement, coverage mapping, and an exceptions register, not a checkbox.
+> To make this concret for the board, i would show 5 (five) piecese of evidence that prove weather MFA is truly implemented or merely avaialable:
 > Coverage matrix: an exportable list showing which systems are in scope (Google Workspace, AWS, CRM, payroll, VPN) and whether MFA is enforced or merely available for each. This maps the control to risk and is a basic ISO artifact.
 > Technical enforcement proof: screenshots or exported configuration from the IdP/SSO and from AWS showing conditional access or MFA enforcement rules (policy names, scope, and timestamps). This proves the setting is active, not aspirational.
 > Uptake metrics and exception register: a current report showing the percentage of users with MFA enabled, plus a documented list of named exceptions with risk acceptance, owner, and expiry date. If uptake is 60% and exceptions are undocumented, auditors will flag non‑conformity.
