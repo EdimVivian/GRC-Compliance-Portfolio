@@ -91,18 +91,18 @@ It should include roles and responsibilities of who approves, grants, review or 
 | **Status**   |FAIL |
 
 | **Evidence from the profile** | What specific detail from SecureNow Ltd supports your judgment? |
-Staff accounts remain nactive long \fter people leave the organisation
-A former senior colleague leader still has AWS admin access four months fter leaving
-No structured process for requesting or having access to system or information
-New accunt are creted by the office manager with no documented procedure or approvals
-No IT or GRC team exists in the company to oversee user account or identity related risks and issues.
+>Staff accounts remain inactive long after people leave the organisation.
+>A former senior colleague leader still has AWS admin access four months fter leaving.
+>No structured process for requesting or having access to system or information.
+>New accoount are created by the office manager with no documented procedure or approvals.
+>No IT or GRC team exists in the company to oversee user account or identity related risks and issues.
 
 | **Your reasoning** | Why did you choose this status? Be specific |
-SecureNow’s approach to managing user identities is almost entirely informal. 
-Accounts are created and removed whenever someone remembers, rather than following a defined process.
-Because there’s no joiner–mover–leaver workflow, the company cannot reliably say who has access to what — or whether that access is still appropriate. 
-The fact that an ex‑employee still has admin‑level access to AWS shows that identity management is not functioning in a safe or controlled way. 
-For these reasons, the requirement is not met.
+>SecureNow’s approach to managing user identities is almost entirely informal. 
+>Accounts are created and removed whenever someone remembers, rather than following a defined process.
+>Because there’s no joiner–mover–leaver workflow, the company cannot reliably say who has access to what or whether that access is still appropriate. 
+>The fact that an ex‑employee still has admin‑level access to AWS shows that identity management is not functioning in a safe or controlled way. 
+>For these reasons, the requirement is not met.
 
 | **Gap (if any)** | What exactly is missing or insufficient? |
 
@@ -205,7 +205,7 @@ Write a short paragraph (4 to 6 sentences) summarising your overall assessment o
 >Privileged access is unmanaged and deprovisioning is slow, creating clear opportunities for misuse and undetected data exposure.
 >Remediation is straightforward and urgent: enforce unique identities, ban shared passwords, mandate MFA, define role‑based privileges, and implement timely deprovisioning with audit trails.
 >Shared credentials, optional MFA, and manual, ad‑hoc provisioning mean the company cannot reliably prove who has access to sensitive systems or that those rights are appropriate.
->Until those basecis are in place and demonstrably operating, Securenow cannot meet ISO 270001 expectations for acess control.
+>Until those basics are in place and demonstrably operating, Securenow cannot meet ISO 270001 expectations for acess control.
 
 ## Critical Thinking Questions
 
@@ -240,7 +240,7 @@ Answer each question in 3 to 5 sentences. These require your own judgment. There
 
 **Question 4:** What evidence would you ask SecureNow Ltd to provide to verify whether each control is actually working, not just documented? List at least two pieces of evidence per control.
 
-1. Identity Management
+1. **Identity Management**
 Undsr this section i would be verifying: Joiner–Mover–Leaver (JML) processes work in practice.
 
 List of evidence to request:
@@ -248,7 +248,7 @@ List of evidence to request:
 >Leaver reports showing accounts disabled on or before the termination date (sample 5–10 recent leavers).
 >List of all active accounts compared against HR’s list of active employees (to detect ghost accounts).
 
-2. Access Control Policy
+2. **Access Control Policy**
 Here i would be verifying if the policy exists, is current, and is being followed.
 
 Ask for at least two pieces of evidence:
@@ -256,13 +256,13 @@ Ask for at least two pieces of evidence:
 >Evidence of communication and adoption, e.g., onboarding checklist, training records, or staff acknowledgement logs.
 >Sample audit of compliance, such as a spot‑check showing whether actual access practices match the policy.
 >
-3. Access Rights
+3. **Access Rights**
  What to verify: Least privilege, role‑based access, and regular reviews.
 Evidence to ask for:
 >Role‑based access matrix mapping job roles to required systems and privilege levels.
 >Quarterly access review records showing who reviewed access, what was removed, and why.
 
-4. Authentication Information
+4. **Authentication Information**
    What to verify: Authentication controls (passwords, MFA, secrets) are enforced, not optional.
 
 Pieces of evidence:
